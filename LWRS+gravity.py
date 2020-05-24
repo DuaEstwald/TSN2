@@ -162,9 +162,8 @@ ax2.grid()
 
 ax3.set_xlim(xi,xf)
 ax3.set_ylim(0.,P00*1.5)
-#ax3.set_ylim(0.,2.)
 ax3.set_xlabel(r'$x$')
-ax3.set_ylabel(r'$P_1$')
+ax3.set_ylabel(r'$P_0$')
 ax3.grid()
 
 
@@ -283,8 +282,8 @@ def animate(i):
         return line
 
 ani = animation.FuncAnimation(fig, animate, interval=100, blit=True,repeat = False)
-ani.save('lagrange.gif',writer='imagemagick',fps=100)
-#plt.show()
+#ani.save('lagrange.gif',writer='imagemagick',fps=100)
+plt.show()
 
 #tfile.close()
 
