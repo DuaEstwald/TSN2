@@ -1,5 +1,4 @@
-# TSN2
-Jeans Mass &amp; Gravitational Collapse
+# Jeans Mass &amp; Gravitational Collapse
 
 
 Este código pretende resolver las ecuaciones de los fluidos con el término gravitatorio utilizando el método del "operator splitting".
